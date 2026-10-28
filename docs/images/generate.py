@@ -78,7 +78,7 @@ def main():
         draw.rectangle([420, y + 10, 900, y + 18], fill=(255, 255, 255, 30))
         draw.rectangle([420, y + 10, 420 + int(480 * pct), y + 18], fill=(*ORANGE, 240))
         draw.text((930, y), remain, font=mono(18), fill=DIM)
-    draw.text((96, 720), "代理（可选）: http://127.0.0.1:10090", font=mono(18), fill=DIM)
+    draw.text((96, 720), "proxy (optional): http://127.0.0.1:10090", font=mono(18), fill=DIM)
 
     ImageDraw.Draw(img).text((40, h - 44), "illustration - not a screenshot", font=mono(20), fill=(255, 255, 255, 80))
     img.convert("RGB").save(os.path.join(HERE, "plugins-card.png"), optimize=True)
