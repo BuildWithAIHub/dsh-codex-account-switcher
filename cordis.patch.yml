@@ -1,0 +1,8 @@
+# Insert the Codex account switcher row.
+# The row's volatile Config is what its Plugins page form edits.
+- insert:
+    - id: codex-accounts
+      name: 'dsh-codex-account-switcher'
+      config:
+        accountsRoot: ''
+        activeAccount: ''

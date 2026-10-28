@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex 账号切换",
+    "description": "在插件页里给 Codex 子智能体用的登录做快照，并在账号之间切换。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex Account Switcher",
+    "description": "Snapshot and switch the Codex login used by the Codex subagent, right on the Plugins page."
+  }
+}

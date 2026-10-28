@@ -1,0 +1,9 @@
+# local artifacts
+debug.json
+node_modules/
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
